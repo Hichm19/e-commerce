@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.card {
+    background-color: rgb(24, 23, 23);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px;
+    font-family: Poppins;
+    width: 200px;
+    height: 300px;
+    color: white;
+}
+
+.image {
+    position: relative;
+    left: 20px;
+    width: 100px; /* Ajuste selon la taille de l'image */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    width: 100px; /* Doit être plus grand que l'image */
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle,rgb(66, 7, 121), rgb(0, 0, 0));
+    z-index: +1; /* Met le gradient en arrière-plan */
+    filter: blur(10px);
+}
+
+.images {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+
+.images{
+    position: relative;
+    width: 80px;
+    height: 80px;
+   
+}
+
+.content{
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 20px;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+    background-image: linear-gradient(rgb(63, 63, 63),rgb(0, 0, 0));
+    width: 200px;
+    padding-bottom: 48px;
+}
+
+.content h2{
+    font-size: 14px;
+}
+
+.content p{
+    font-size: 10px;
+    margin: 0;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(66, 7, 121);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}

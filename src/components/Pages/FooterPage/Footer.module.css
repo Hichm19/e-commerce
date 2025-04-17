@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#1a1919;
+    padding: 50px;
+}
+
+.container1{
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.information ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    position: relative;
+    top: 10px;
+}
+
+.navigation {
+    position: relative;
+    top: 12px;
+}
+
+.NavLink{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10px;
+}
+
+.container2{
+    padding-top: 20px;
+    position: relative;
+    left: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2 p {
+    position: relative;
+    right: 150px;
+}
+
+.container2 ul{
+    position: relative;
+    left: 15px;
+}
+
+.container2 a{
+    color: white;
+}
+
+.container2 span{
+    color: rgb(66, 7, 121);
+    font-size:medium;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.information ul li span {
+    color: rgb(66, 7, 121) ;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+a:hover{
+    color: rgb(66, 7, 121);
+}
+
+.information h2{
+    color: rgb(66, 7, 121);
+}
+
+.navigation h2{
+    color: rgb(66, 7, 121);
+}
+
+.container1 h2{
+    color: rgb(66, 7, 121);
+}

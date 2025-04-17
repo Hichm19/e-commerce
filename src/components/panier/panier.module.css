@@ -1,0 +1,22 @@
+.panier{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse; /* Fusionne les bordures des cellules */
+    width: 50%; /* Optionnel : prend toute la largeur */
+  }
+  
+  th, td {
+    border: none; /* Ajoute une bordure */
+    
+    padding: 15px; /* Augmente l’espace intérieur des cellules */
+    text-align: center; /* Centre le texte */
+  }
+
+  td{
+    background-color :rgb(241, 234, 245);
+  }
